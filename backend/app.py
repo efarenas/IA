@@ -13,7 +13,7 @@ def process_prompt():
     prompt = data['prompt']
 
     response = openai.Completion.create(
-        model="text-davinci-003",
+        model="gpt-4o",
         prompt=prompt,
         max_tokens=100
     )
